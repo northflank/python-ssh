@@ -4,6 +4,6 @@ WORKDIR /app
 
 COPY . .
 
-RUN pip install -r requirements.txt && ls -al /
+RUN ls -al / && pip install -r requirements.txt
 
 CMD ["python3", "-c", "print(\"hello world\")"]
