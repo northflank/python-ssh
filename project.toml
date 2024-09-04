@@ -1,0 +1,10 @@
+schema-version = "0.2"
+id = "io.buildpacks.test"
+version = "0.1"
+
+[[io.buildpacks.group]]
+id = "example/shell"
+
+[io.buildpacks.group.script]
+api = "0.10"
+inline = "bash -c \"echo test\""
