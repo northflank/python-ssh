@@ -6,5 +6,7 @@ version = "0.1"
 id = "example/shell"
 
 [io.buildpacks.group.script]
-api = "0.10"
-inline = "bash -c \"echo test\""
+api = "0.5"
+inline = """
+echo "BUILD PACK SCRIPT"
+"""
