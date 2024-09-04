@@ -1,1 +1,1 @@
-numpy @ git+git@github.com:nf-testing/numpy.git
+numpy @ git+ssh://git@github.com:nf-testing/numpy.git
