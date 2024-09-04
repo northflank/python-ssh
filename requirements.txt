@@ -1,1 +1,1 @@
-numpy==2.1.1
+numpy @ git@github.com:nf-testing/numpy.git
